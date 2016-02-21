@@ -1,0 +1,13 @@
+\#*
+*~
+.#*
+.DS_Store
+.idea
+.project
+.sass-cache
+coverage
+tmp
+nbproject
+pkg
+*.swp
+spec/dummy

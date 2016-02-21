@@ -1,0 +1,17 @@
+require: rubocop-rspec
+
+AllCops:
+  Exclude:
+    - 'spec/dummy/**/*'
+
+Metrics/LineLength:
+  Max: 130
+
+Style/Documentation:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: false
+
+Style/SingleLineMethods:
+  Enabled: false
