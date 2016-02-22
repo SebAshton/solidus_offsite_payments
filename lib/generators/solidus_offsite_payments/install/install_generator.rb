@@ -27,7 +27,7 @@ module SolidusOffsitePayments
 
       def run_migrations
         migrations_ask = 'Would you like to run the migrations now? [Y/n]'
-        run_migrations = options[:auto_run_migrations] || ['', 'y', 'Y'].include?(ask migrations_ask)
+        run_migrations = options[:auto_run_migrations] || ['', 'y', 'Y'].include?(ask(migrations_ask))
 
         if run_migrations
           run 'bundle exec rake db:migrate'
