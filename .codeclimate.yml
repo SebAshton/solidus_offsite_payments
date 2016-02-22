@@ -9,9 +9,7 @@ engines:
     config:
       languages:
       - ruby
-      - javascript
-      - python
-      - php
+      - coffeescript
   coffeelint:
     enabled: true
   fixme:
