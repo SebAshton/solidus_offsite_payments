@@ -1,5 +1,7 @@
 # Solidus Offsite Payments
 
+[![Build Status](https://travis-ci.org/SebAshton/solidus_offsite_payments.svg?branch=master)](https://travis-ci.org/SebAshton/solidus_offsite_payments) [![Code Climate](https://codeclimate.com/github/SebAshton/solidus_offsite_payments/badges/gpa.svg)](https://codeclimate.com/github/SebAshton/solidus_offsite_payments) [![Test Coverage](https://codeclimate.com/github/SebAshton/solidus_offsite_payments/badges/coverage.svg)](https://codeclimate.com/github/SebAshton/solidus_offsite_payments/coverage)
+
 **Currently In Progress**
 
 ActiveMerchant::OffsitePayments Integration for [Solidus](https://github.com/solidusio/solidus)
