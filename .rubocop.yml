@@ -3,6 +3,7 @@ require: rubocop-rspec
 AllCops:
   Exclude:
     - 'spec/dummy/**/*'
+    - 'vendor/bundle/**/*'
 
 Metrics/LineLength:
   Max: 130
