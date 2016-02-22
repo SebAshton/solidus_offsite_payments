@@ -1,6 +1,6 @@
 module SolidusOffsitePayments
   class Engine < Rails::Engine
-    require "solidus_core"
+    require 'solidus_core'
 
     isolate_namespace Spree
 
@@ -17,6 +17,6 @@ module SolidusOffsitePayments
       end
     end
 
-    config.to_prepare &method(:activate).to_proc
+    config.to_prepare(&method(:activate).to_proc)
   end
 end
