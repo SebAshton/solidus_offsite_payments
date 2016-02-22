@@ -71,10 +71,10 @@ If you familiar with or would like to use Docker, then a Dockerfile is included,
 
 ### Tidying up Docker
 
-*Containers*
+**Containers**
 Remove all stopped containers `docker rm (docker ps -a -q)`
 
-*Images*
+**Images**
 Remove all untagged images `docker rmi (docker images | grep "^<none>" | awk '{print $3}')`
 
 --
