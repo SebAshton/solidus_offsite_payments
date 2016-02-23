@@ -24,13 +24,9 @@ ratings:
   - "**.css"
   - "**.scss"
   - "**.coffee"
-  - "**.inc"
   - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
   - "**.rb"
 exclude_paths:
 - config/
 - spec/
+- vendor/
